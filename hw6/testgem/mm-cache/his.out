@@ -1,0 +1,59 @@
+  764  go /apps/arch/gem5/build/X86/
+  765  ./gem5.opt -h
+  774  ls -s /apps/arch/gem5/ gem
+  775  ls -s gem /apps/arch/gem5/
+  776  ln -s /apps/arch/gem5/ gem
+  778  mkdir testgem
+  779  go testgem/
+  782  go testgem/hello-x86/
+  783  ln -s /apps/arch/gem5/ gem
+  784  ls gem/configs/learning_gem5/part1/
+  785  gem/build/X86/gem5.opt gem/configs/learning_gem5/part1/simple.py -c gem/tests/test-progs/hello/bin/x86/linux/hello
+  790  objdump -d gem/tests/test-progs/hello/bin/x86/linux/hello
+  791  objdump -d gem/tests/test-progs/hello/bin/x86/linux/hello > assemb.out
+  797  ln -s /apps/arch/gem5/ gem
+  798  gem/build/ARM/gem5.opt gem/configs/learning_gem5/part1/simple-arm.py gem/tests/test-progs/hello/bin/arm/linux/hello 
+  808  ln -s /apps/arch/gem5/ gem
+  810  cp gem/configs/learning_gem5/part1/simple.py  .
+  815  gem/build/X86/gem5.opt matmul.py 
+  818  cp gem/configs/learning_gem5/part1/simple.py .
+  822  go gem/
+  825  go gem5
+  830  go testgem/
+  833  cp /apps/arch/gem5/configs/learning_gem5/part1/*.py .
+  838  cd /apps/arch/gem5/src/
+  845  go testgem/
+  849  /apps/arch/gem5/build/X86/gem5.opt two_level.py Mm_serial_static.out 16
+  855  go /apps/arch/gem5/
+  858  go gem5.opt -h
+  859  ./gem5.opt -h
+  860  ./gem5.opt 
+  861  ./gem5.opt -h
+  863  ./build/X86/gem5.opt -h
+  872  go testgem/
+  874  /apps/arch/gem5/build/X86/gem5.opt --debug-flags=Exec,-ExecSymbol /apps/arch/gem5/configs/learning_gem5/part1/simple.py -c /apps/arch/gem5/tests/test-progs/hello/bin/x86/linux/hello | more
+  880  go testgem/
+  882  /apps/arch/gem5/build/X86/gem5.opt --debug-flags=Exec,-ExecSymbol /apps/arch/gem5/configs/learning_gem5/part1/simple.py -c /apps/arch/gem5/tests/test-progs/hello/bin/x86/linux/hello | more
+  883  /apps/arch/gem5/build/X86/gem5.opt --debug-flags=Exec,-ExecSymbol /apps/arch/gem5/configs/learning_gem5/part1/simple.py -c /apps/arch/gem5/tests/test-progs/hello/bin/x86/linux/hello 
+  892  ln -s /apps/arch/gem5/
+  893  ln -s /apps/arch/gem5/ gem
+  894  gem/build/X86/gem5.opt -h
+  897  go gem5/
+  898  rm gem5
+  899  rm gem5/
+  900  rm gem
+  904  rm gem5
+  907  gem/build/X86/gem5.opt gem/configs/learning_gem5/part1/simple.py -c gem/tests/test-progs/hello/bin/x86/linux/hello
+  913  ln -s /apps/arch/gem5/ gem
+  914  gem/build/ARM/gem5.opt gem/configs/learning_gem5/part1/simple.py -c gem/tests/test-progs/hello/bin/arm/linux/hello 
+  915  cp gem/configs/learning_gem5/part1/simple.py  .
+  916  gem/build/ARM/gem5.opt gem/configs/learning_gem5/part1/simple.py -c gem/tests/test-progs/hello/bin/arm/linux/hello 
+  922  gem/build/ARM/gem5.opt gem/configs/learning_gem5/part1/simple-arm.py -c gem/tests/test-progs/hello/bin/arm/linux/hello 
+  926  ln -s /apps/arch/gem5/ gem
+  927  gem/build/RISCV/gem5.opt gem/configs/learning_gem5/part1/simple-riscv.py -c gem/tests/test-progs/hello/bin/riscv/linux/hello 
+  931  gem/build/X86/gem5.opt -h
+  932  gem/build/X86/gem5.opt -R
+  933  go gem/
+  942  go learning_gem5/
+ 1003  go arch/hw6/testgem/
+ 1005  history | grep gem > his.out

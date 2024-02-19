@@ -1,0 +1,26 @@
+8
+system.cpu.numCycles                         61975810                       # Number of cpu cycles simulated (Cycle)
+16
+system.cpu.numCycles                         57406486                       # Number of cpu cycles simulated (Cycle)
+24
+system.cpu.numCycles                         56633962                       # Number of cpu cycles simulated (Cycle)
+32
+system.cpu.numCycles                         55603352                       # Number of cpu cycles simulated (Cycle)
+40
+system.cpu.numCycles                         55980565                       # Number of cpu cycles simulated (Cycle)
+48
+system.cpu.numCycles                         55830743                       # Number of cpu cycles simulated (Cycle)
+56
+system.cpu.numCycles                         55736295                       # Number of cpu cycles simulated (Cycle)
+64
+system.cpu.numCycles                         54626039                       # Number of cpu cycles simulated (Cycle)
+72
+system.cpu.numCycles                         55706913                       # Number of cpu cycles simulated (Cycle)
+80
+system.cpu.numCycles                         55706913                       # Number of cpu cycles simulated (Cycle)
+88
+system.cpu.numCycles                         55706913                       # Number of cpu cycles simulated (Cycle)
+96
+system.cpu.numCycles                         55706913                       # Number of cpu cycles simulated (Cycle)
+104
+system.cpu.numCycles                         55706901                       # Number of cpu cycles simulated (Cycle)

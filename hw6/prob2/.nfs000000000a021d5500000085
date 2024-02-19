@@ -1,0 +1,10 @@
+for (( i = 8; i < 65; i = i+8))
+do
+gem/build/X86/gem5.opt two_level_prob2.py Mm_serial_static_var.out 64 i
+cp m5out/stats.txt ../stats_${i}.txt
+done
+for (( i = 8; i < 65; i = i+8))
+do 
+cat stats_${i}.txt
+done
+#gem/build/X86/gem5.opt two_level_prob2.py Mm_serial_static_var.out 64 8 
